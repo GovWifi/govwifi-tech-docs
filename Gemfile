@@ -10,6 +10,6 @@ gem 'wdm', '~> 0.1.1', platforms: [:mswin, :mingw]
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 
 # Include the tech docs gem
-gem 'govuk_tech_docs', '~> 3.5.0'
+gem 'govuk_tech_docs', '~> 4.2.0'
 
 
