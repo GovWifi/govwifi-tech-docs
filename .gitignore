@@ -23,3 +23,5 @@ node_modules
 
 # build-time copied assets
 source/javascripts/dist
+
+.idea/*
