@@ -37,7 +37,7 @@ You can ask us for the contact details of users if you need to get in touch with
 For us to provide this information:
 
 - the request must come from a person who is a team member on the organisation’s GovWifi admin account, and we may get in touch to check that the request definitely came from that person
-- your organisation must have signed the [memorandum of understanding (MOU)](https://admin.wifi.service.gov.uk/mou) (sign in required) which sets out the terms that we can share personal data under
+- your organisation must have signed the [memorandum of understanding (MOU)](https://www.wifi.service.gov.uk/memorandum-of-understanding/) (sign in required) which sets out the terms that we can share personal data under
 
 ### Block users
 
