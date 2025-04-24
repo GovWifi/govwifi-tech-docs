@@ -1,10 +1,10 @@
-FROM ruby:3.2.2-alpine
+FROM ruby:3.4.3-alpine
 
 WORKDIR /usr/src/app
 
 COPY Gemfile Gemfile.lock .ruby-version ./
 
-RUN apk --update add g++ musl-dev make git nodejs npm
+RUN apk --update add g++ musl-dev make git nodejs npm yaml-dev
 RUN bundle install
 COPY . .
 
