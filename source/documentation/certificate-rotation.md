@@ -47,7 +47,7 @@ Depending on their device, they may not be able to see all the information refer
 
 For example, this is what it looks like on a Mac:
 
-![Screenshot of certificate verification on Mac OS](https://docs.wifi.service.gov.uk/assets/images/screenshot_macos.jpg)
+![Screenshot of certificate verification on Mac OS](https://docs.wifi.service.gov.uk/assets/images/screenshot_macos.png)
 
 ### Possible problems
 
