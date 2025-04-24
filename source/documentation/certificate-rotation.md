@@ -2,7 +2,7 @@
 
 Every year, we rotate the GovWifi server certificate. Occasionally, we’ll also need to replace the intermediate or root certificates. This is an industry standard procedure that keeps the authentication process secure.
 
-We’ll give you at least one month’s notice about certificate rotations. The next one is scheduled for Thursday 29th May 2025.
+We’ll give you at least one month’s notice about certificate rotations. The next one is scheduled for Wednesday 28th May 2025.
 
 The GovWifi team carries out the certificate rotation on the RADIUS servers, but your organisation may need to do some work to make sure your users can connect to GovWifi after the rotation.
 
