@@ -4,7 +4,7 @@ Before you offer GovWifi in your organisation, you need to make sure your existi
 
 For GovWifi to work alongside your existing wifi infrastructure, your:
 
-- wifi infrastructure must use WPA2-Enterprise (AES) encryption or newer
+- wifi infrastructure must use WPA2-Enterprise (AES) and WPA3-Enterprise encryption or newer
 - wireless LAN controllers need to be able to point to one or more RADIUS (Remote Authentication Dial-In User Service) servers - we recommend at least 2
 - network must be able to use one or more public IP addresses for connecting to the RADIUS servers
 - firewall must allow RADIUS protocol to connect to the GovWifi authentication servers - port 1812/User Datagram Protocol (UDP) for authentication requests
