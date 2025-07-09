@@ -3,7 +3,7 @@ name: Upgrade Ruby
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 1 * 0" # Runs weekly
+    - cron: "0 0 15 * 0" # Runs monthly
 
 permissions:
   contents: write
@@ -13,7 +13,10 @@ jobs:
   upgrade-ruby:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: andrew/ruby-upgrade-action@main
+      - name: Check out code
+        uses: actions/checkout@v4
+      - name: run updater
+        uses: govwifi/shared-actions-workflows/.github/actions/ruby-updater@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          main-branch: master
