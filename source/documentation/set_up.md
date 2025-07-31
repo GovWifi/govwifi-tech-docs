@@ -11,7 +11,7 @@ Before offering GovWifi in your organisation check that [your existing wifi setu
 
 Before setting up two-factor authentication, please ensure your two-factor authentication device time & date is correct e.g. with internet time. Device time drift can cause authentication failures.
 
-After creating your account you should invite at least one colleague to create an account. This is so that a colleague can reset your two-factor authentication, if needed.
+After creating your account you must invite at least one colleague to create an account. This is so that a colleague can reset your two-factor authentication, if needed.
 
 Invite them from the **team members** section of your GovWifi admin account.
 
@@ -19,7 +19,7 @@ Invite them from the **team members** section of your GovWifi admin account.
 
 You must [sign the memorandum of understanding](https://www.wifi.service.gov.uk/memorandum-of-understanding/) (MOU) before your organisation can begin installing GovWifi.
 
-The MOU sets out the agreement between the Government Digital Service (GDS) and your public sector organisation in relation to GovWifi use.
+The MOU sets out the agreement between the Cabinet Office (CO) and your public sector organisation in relation to GovWifi use.
 
 ## Create a new wifi installation
 
@@ -31,7 +31,9 @@ This allows your wifi controller or access points to connect to the internet usi
 
 Add your IP addresses to your [GovWifi admin account](https://admin.wifi.service.gov.uk/ips).
 
-Details of the RADIUS (Remote Authentication Dial-In User Service) servers are in your [GovWifi admin account](https://admin.wifi.service.gov.uk/setup_instructions/initial) under **settings**. You must connect to at least one RADIUS server in each region (one from the London list and one from the Dublin one). You can configure your authenticators to connect to more than two RADIUS servers. These extra servers are known as ‘backups’ or ‘failovers’.
+Details of the RADIUS (Remote Authentication Dial-In User Service) servers are in your [GovWifi admin account](https://admin.wifi.service.gov.uk/setup_instructions/initial) under **settings**.
+
+You must connect to at least one RADIUS server in each region (one from the London list and one from the Dublin one). You can configure your authenticators to connect to more than two RADIUS servers. These extra servers are known as ‘backups’ or ‘failovers’.
 
 We recommend connecting to all GovWifi RADIUS servers, so you're protected from a single server being unavailable.
 
@@ -40,7 +42,7 @@ We recommend connecting to all GovWifi RADIUS servers, so you're protected from 
 1. Create a firewall rule to allow traffic on User Datagram Protocol (UDP) ports 1812 to reach the RADIUS IP addresses assigned to you. Do not point UDP port 1813 at GovWifi RADIUS IPs - GovWifi does not support RADIUS accounting and port 1813 is closed.
 2. Create a service set identifier (SSID) with:
     * name: GovWifi
-    * type: WPA2-Enterprise (AES encryption)
+    * type: WPA2-Enterprise (AES encryption) and WPA3- Enterprise
 
 > Make sure you spell GovWifi exactly as shown. Do not use a variation like 'Govwifi' or 'GovWiFi'. If different GovWifi networks format the SSID differently, users will have to authenticate to each one rather than connecting automatically. Their devices will not recognise them as the same network.
 
@@ -102,13 +104,13 @@ netsh wlan set profileorder name="GovWifi" interface="Wi-Fi" priority=1
 
 ## Sign up for incident alerts 
 
-Subsribe to updates on the [GovWifi status page](https://status.wifi.service.gov.uk/) to be notified when there's an incident. 
+Subscribe to updates on the [GovWifi status page](https://status.wifi.service.gov.uk/) to be notified when there's an incident. 
 
 It's best to sign up using the shared, monitored email address you entered on GovWifi admin. 
 
 ## Create a plan to deal with a GovWifi outage 
 
-If GovWifi is critical for your organisation, create a business continuity plan so you can still provide internet access in your buildings if there’s a problem with GovWifi. 
+If GovWifi is critical for your organisation, you must create and regularly test a business continuity plan so you can still provide internet access in your buildings if there’s a problem with GovWifi. 
 
 We should be able to resolve most incidents within a few hours. However, in the unlikely event that there’s a catastrophic failure of our infrastructure, it could take up to 5 days to restore the service.
 
@@ -116,7 +118,7 @@ Consult with your risk assessment and technology teams on your business continui
 
 ### Set up a backup SSID
 
-We recommend you have a backup guest SSID that people in your buildings can use if there’s a long GovWifi outage. 
+We strongly recommend you have a backup guest SSID that people in your buildings can use if there’s a long GovWifi outage. 
 
 When setting up your backup guest SSID: 
 
@@ -126,14 +128,14 @@ When setting up your backup guest SSID:
 
 Run regular tests of the SSID to make sure you can quickly switch to it if required.
 
-### Document how to update the GovWifi configuration 
-
-If GovWifi is going to be down for a long time, we might ask you to update your GovWifi configuration with temporary IP addresses for our RADIUS servers. 
-
-Make sure you’ve documented how to update the GovWifi configuration at your site so you can do this if necessary.
-
 ### Plan how you'll tell your users 
 
 Plan how you’ll tell your users to use the backup SSID. Make sure your users on managed devices will be able to connect to the backup SSIDs created by each building if they’re roaming.
 
 Share the relevant parts of your business continuity plan with your user support team so they know how to help users.
+
+### Document how to update the GovWifi configuration
+
+If GovWifi is going to be down for a long time, we might ask you to update your GovWifi configuration with temporary IP addresses for our RADIUS servers.
+
+Make sure you’ve documented how to update the GovWifi configuration at your site so you can do this if necessary.
