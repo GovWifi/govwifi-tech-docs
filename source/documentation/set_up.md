@@ -33,7 +33,7 @@ Add your IP addresses to your [GovWifi admin account](https://admin.wifi.service
 
 Details of the RADIUS (Remote Authentication Dial-In User Service) servers are in your [GovWifi admin account](https://admin.wifi.service.gov.uk/setup_instructions/initial) under **settings**.
 
-You must connect to at least one RADIUS server in each region (one from the London list and one from the Dublin one). You can configure your authenticators to connect to more than two RADIUS servers. These extra servers are known as ‘backups’ or ‘failovers’.
+>You must connect to at least one RADIUS server in each region (one from the London list and one from the Dublin one). You can configure your authenticators to connect to more than two RADIUS servers. These extra servers are known as ‘backups’ or ‘failovers’.
 
 We recommend connecting to all GovWifi RADIUS servers, so you're protected from a single server being unavailable.
 
@@ -42,7 +42,7 @@ We recommend connecting to all GovWifi RADIUS servers, so you're protected from 
 1. Create a firewall rule to allow traffic on User Datagram Protocol (UDP) ports 1812 to reach the RADIUS IP addresses assigned to you. Do not point UDP port 1813 at GovWifi RADIUS IPs - GovWifi does not support RADIUS accounting and port 1813 is closed.
 2. Create a service set identifier (SSID) with:
     * name: GovWifi
-    * type: WPA2-Enterprise (AES encryption) and WPA3- Enterprise
+    * type: WPA2-Enterprise (AES encryption) and WPA3-Enterprise
 
 > Make sure you spell GovWifi exactly as shown. Do not use a variation like 'Govwifi' or 'GovWiFi'. If different GovWifi networks format the SSID differently, users will have to authenticate to each one rather than connecting automatically. Their devices will not recognise them as the same network.
 
