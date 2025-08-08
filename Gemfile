@@ -14,7 +14,7 @@ gem 'govuk_tech_docs', '~> 4.2.0'
 
 # Middleman Gems
 # Pinned to 4.5.1 due to this bug https://github.com/middleman/middleman/issues/2818
-gem 'middleman', '4.5.1'
+gem 'middleman', '4.6.2'
 
 # required since ruby > 3.4
 gem 'base64'
