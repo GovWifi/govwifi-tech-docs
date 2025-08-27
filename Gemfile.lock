@@ -253,8 +253,7 @@ DEPENDENCIES
   base64
   benchmark
   bigdecimal
-  google-protobuf
-  govuk_tech_docs (~> 4.2.0)
+  govuk_tech_docs (= 4.2.0)
   kramdown
   middleman (= 4.6.2)
   mutex_m
