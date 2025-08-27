@@ -1,5 +1,8 @@
 require 'govuk_tech_docs'
+require 'kramdown'
 
+GovukTechDocs.configure(self)
+set :markdown_engine, :kramdown
 set :relative_links, true
 
 configure :build do
@@ -9,8 +12,6 @@ configure :build do
     }
     activate :relative_assets
 end
-
-GovukTechDocs.configure(self)
 
 redirect "set_up/index.html", to: "/set_up.html"
 redirect "requirements/index.html", to: "/requirements.html"
