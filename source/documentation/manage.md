@@ -22,6 +22,8 @@ Organisations use different support models including onsite and remote support d
 
 Your users include anyone who needs to use GovWifi in your buildings. Depending on your organisation, this could include members of the public and public sector staff on devices managed by other organisations.
 
+We may share your contact details, such as the service email, with relevant users including ‘orphan’ network administrators or end users to facilitate effective support and communication.
+
 You may also need to proactively contact GovWifi users in your building, for example, if they’re likely to experience disruption to the service because of work we’re doing. We’ll tell you when this is necessary and will let you know in advance. Again, it’s up to your organisation to plan how best to do this. 
 
 ## Manage acceptable use
@@ -57,11 +59,13 @@ You can view [logs for specific users](https://admin.wifi.service.gov.uk/logs/se
 
 You can expect the following communications from the GovWifi team:  
 
-- updates on significant changes to the service - we’ll usually ask for your feedback so please help out where you can 
+- updates on significant changes to the service - such as certificate rotations or potentially disruptive  maintenance updates
 - updates on significant changes to our privacy policy
 - requests for you to take part in user research. This is so we can improve the service so it meets your needs.
 
 All communications will go to the ‘service email’ provided when setting up your GovWifi admin account. Where necessary, some will also go to individual admin users. You need to sign up separately for incident alerts on our [status page](https://status.wifi.service.gov.uk/).
+
+You must maintain an actively monitored service email account at all times. If applicable,  cascade messages to relevant stakeholders, including indirect administrators or network managers, to ensure comprehensive communication.
 
 ## Stop using GovWifi
 

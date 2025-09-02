@@ -2,7 +2,7 @@
 
 Public sector staff and their guests often have to remember different usernames and passwords for wifi networks in multiple organisations and buildings.
 
-GovWifi solves this problem. Public sector staff sign up once and connect their device using their unique details. They’ll then automatically connect to GovWifi in any building that offers it.
+GovWifi solves this problem. Public sector staff and guests sign up once and connect their device using their unique details. They’ll then automatically connect to GovWifi in any building that offers it.
 
 If you manage IT services in a public sector organisation and would like to make GovWifi available in your buildings, this technical documentation explains how to:
 
@@ -21,7 +21,7 @@ Each end user sends a text or email to request their unique username and passwor
 A user’s credentials:
 
 - are randomly generated for each user
-- should not be shared with other users
+- must not be shared with other users
 - can be used to connect to GovWifi on all their corporate and personal devices
 
 ## Who it’s for
