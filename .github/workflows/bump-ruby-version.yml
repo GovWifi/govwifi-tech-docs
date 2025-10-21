@@ -3,7 +3,7 @@ name: Upgrade Ruby
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 15 * 0" # Runs monthly
+    - cron: "0 0 15 * *" # Runs monthly
 
 permissions:
   contents: write
