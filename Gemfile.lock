@@ -255,7 +255,6 @@ DEPENDENCIES
   base64
   benchmark
   bigdecimal
-  google-protobuf
   govuk_tech_docs (= 4.2.0)
   kramdown
   kramdown-parser-gfm
