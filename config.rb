@@ -3,6 +3,7 @@ require 'kramdown'
 
 GovukTechDocs.configure(self)
 set :markdown_engine, :kramdown
+set :markdown, input: 'GFM'
 set :relative_links, true
 
 configure :build do
