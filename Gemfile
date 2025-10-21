@@ -23,6 +23,7 @@ gem 'bigdecimal'
 gem 'mutex_m'
 gem 'rdoc'
 gem 'kramdown' ## replace redcarpet which breaks with middleman > 4.5.1
+gem 'kramdown-parser-gfm' ## needed for github style markdown
 gem 'tilt'
 ## needed if sass-embedded gives a seg fault.
 gem 'google-protobuf', force_ruby_platform: true if RUBY_PLATFORM.include?('linux-musl')
