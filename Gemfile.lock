@@ -192,7 +192,7 @@ GEM
     rb-fsevent (0.11.2)
     rb-inotify (0.11.1)
       ffi (~> 1.0)
-    rdoc (6.16.1)
+    rdoc (6.17.0)
       erb
       psych (>= 4.0.0)
       tsort
@@ -225,7 +225,7 @@ GEM
       concurrent-ruby (~> 1.0)
       logger
       rack (>= 2.2.4, < 4)
-    stringio (3.1.8)
+    stringio (3.1.9)
     temple (0.10.3)
     terser (1.2.5)
       execjs (>= 0.3.0, < 3)
