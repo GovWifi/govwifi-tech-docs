@@ -19,7 +19,8 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
-    commonmarker (0.23.11)
+    commonmarker (0.21.1)
+      ruby-enum (~> 0.5)
     compass (1.0.3)
       chunky_png (~> 1.2)
       compass-core (~> 1.0.2)
@@ -46,6 +47,7 @@ GEM
     execjs (2.10.0)
     fast_blank (1.0.1)
     fastimage (2.4.0)
+    ffi (1.17.2)
     ffi (1.17.2-aarch64-linux-gnu)
     ffi (1.17.2-aarch64-linux-musl)
     ffi (1.17.2-arm-linux-gnu)
@@ -150,9 +152,14 @@ GEM
     middleman-syntax (3.5.0)
       middleman-core (>= 3.2)
       rouge (~> 3.2)
-    minitest (5.25.5)
+    mini_portile2 (2.8.9)
+    minitest (6.0.1)
+      prism (~> 1.5)
     multi_json (1.15.0)
     mutex_m (0.3.0)
+    nokogiri (1.18.9)
+      mini_portile2 (~> 2.8.2)
+      racc (~> 1.4)
     nokogiri (1.18.9-aarch64-linux-gnu)
       racc (~> 1.4)
     nokogiri (1.18.9-aarch64-linux-musl)
@@ -178,6 +185,7 @@ GEM
     padrino-support (0.15.3)
     parallel (1.27.0)
     parslet (2.0.0)
+    prism (1.8.0)
     psych (5.3.1)
       date
       stringio
@@ -199,6 +207,8 @@ GEM
     redcarpet (3.6.1)
     rexml (3.4.2)
     rouge (3.30.0)
+    ruby-enum (0.9.0)
+      i18n
     sass (3.4.25)
     sass-embedded (1.87.0-aarch64-linux-gnu)
       google-protobuf (~> 4.30)
@@ -268,7 +278,7 @@ DEPENDENCIES
   wdm (~> 0.1.1)
 
 RUBY VERSION
-   ruby 3.4.7p58
+   ruby 4.0.1p0
 
 BUNDLED WITH
    2.6.7
