@@ -33,9 +33,12 @@ Organisations can offer GovWifi in their buildings if they are fully controlled 
 - emergency services
 - NHS trusts
 - UK embassies and consulates
+- Courts and other public buildings run by public sector bodies
 
 Anyone can connect a device to GovWifi once they have signed up for a username and password. This includes:
 
 - public sector workers
 - consultants and contractors
 - members of the public who need to work from buildings - like lawyers and jurors in courts, or private sector workers collaborating with government
+
+Each organisation is responsible for applying its own filtering, firewall controls and acceptable use policy on their own network.
