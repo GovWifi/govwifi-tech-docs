@@ -48,7 +48,7 @@ Configure your wireless access points (APs) to:
 
 - use a high basic data rate as your minimum
 - disable lower data rates to encourage clients to roam to APs with stronger signals and increase capacity for all clients
-- support IEEE 802.11ac wave 2 standard for higher throughput and multiple input multiple output (MIMO)
+- support IEEE 802.11ac Wave 2 standard for higher throughput and multiple input multiple output (MIMO)
 - have maximum 4 service set identifiers (SSIDs) per band per site and selectively disable SSIDs where they are not required - each SSID uses up bandwidth with beaconing, probe requests and probe responses
 - manage channel width by designing 802.11n/ac using 40 MHz width channels
 

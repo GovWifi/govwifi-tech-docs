@@ -6,6 +6,14 @@ This guidance explains how to manage GovWifi for your organisation once you've i
 
 You can [view and update your configuration in GovWifi admin](https://admin.wifi.service.gov.uk/).
 
+Use GovWifi admin to:
+
+review and update your site details and contact information
+
+manage your organisation’s IP addresses and RADIUS settings
+
+add, remove or update admin users for your organisation
+
 ## Advertise GovWifi
 
 To make sure your users know they can use GovWifi, you should advertise the service.
@@ -26,6 +34,9 @@ We may share your contact details, such as the service email, with relevant user
 
 You may also need to proactively contact GovWifi users in your building, for example, if they’re likely to experience disruption to the service because of work we’re doing. We’ll tell you when this is necessary and will let you know in advance. Again, it’s up to your organisation to plan how best to do this. 
 
+Ensure your local helpdesk or support route is aware of GovWifi, understands
+common issues and knows how to escalate problems to the GovWifi team if needed
+
 ## Manage acceptable use
 
 You’re responsible for setting your own acceptable use policy and managing filtering and firewall controls.
@@ -40,6 +51,8 @@ For us to provide this information:
 
 - the request must come from a person who is a team member on the organisation’s GovWifi admin account, and we may get in touch to check that the request definitely came from that person
 - your organisation must have signed the [memorandum of understanding (MOU)](https://www.wifi.service.gov.uk/memorandum-of-understanding/) which sets out the terms that we can share personal data under
+
+You must only request user contact details when this is necessary and proportionate, and in line with your organisation’s data protection policies.
 
 ### Block users
 
@@ -69,4 +82,4 @@ You must maintain an actively monitored service email account at all times. If a
 
 ## Stop using GovWifi
 
-If your organisation wants to stop using GovWifi, [contact us](https://admin.wifi.service.gov.uk/help).
+If your organisation wants to stop using GovWifi, [contact us](https://admin.wifi.service.gov.uk/help). You’ll need to update or remove your GovWifi configuration, stop advertising the service and make sure users understand that GovWifi is no longer available in your buildings.
