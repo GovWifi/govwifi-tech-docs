@@ -14,7 +14,7 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 gem 'govuk_tech_docs', '4.2.0'
 
 # Middleman Gems
-gem 'middleman', '4.6.2'
+gem 'middleman', '4.6.3'
 
 # required since ruby > 3.4
 gem 'base64'
