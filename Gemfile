@@ -11,7 +11,7 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 
 # Include the tech docs gem
 # pinned to 4.2.0 due to higher versions pinning middleman to 4.5.1
-gem 'govuk_tech_docs', '4.2.0'
+gem 'govuk_tech_docs', '6.2.0'
 
 # Middleman Gems
 gem 'middleman', '4.6.3'
