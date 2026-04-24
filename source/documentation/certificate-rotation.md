@@ -2,7 +2,7 @@
 
 Every year, we rotate the GovWifi server certificate. Occasionally, we’ll also need to replace the intermediate or root certificates. This is an industry standard procedure that keeps the authentication process secure.
 
-We’ll give you at least one month’s notice about certificate rotations. The next one is scheduled for **Wednesday 28th May 2025**.
+We’ll give you at least one month’s notice about certificate rotations. The next one is scheduled for **Thursday 21st May 2026**.
 
 The GovWifi team carries out the certificate rotation on the RADIUS servers, but your organisation may need to do some work to make sure your users can connect to GovWifi after the rotation.
 
@@ -17,11 +17,11 @@ This section applies to you if your organisation does both of the following:
 
 If you need to update the profile with the new certificate details you must push the updated profile out to your managed devices. How you manage this will depend on how you deploy your GovWifi 802.1x profile to your managed devices.
 
-Download the new certificates for 2025:
+Download the new certificates for 2026:
 
-* [server certificate](https://docs.wifi.service.gov.uk/assets/2025/wifi.service.gov.uk.crt)
-* [intermediate certificate](https://docs.wifi.service.gov.uk/assets/2025/DigiCertCA.crt)
-* [root certificate](https://docs.wifi.service.gov.uk/assets/2025/TrustedRoot.crt)
+* [server certificate](https://docs.wifi.service.gov.uk/assets/2026/wifi.service.gov.uk.crt)
+* [intermediate certificate](https://docs.wifi.service.gov.uk/assets/2026/DigiCertCA.crt)
+* [root certificate](https://docs.wifi.service.gov.uk/assets/2026/TrustedRoot.crt)
 
 ## Help users accept the new certificate
 
@@ -40,14 +40,10 @@ They should:
 1. View the certificate.
 1. Check that the domain is **wifi.service.gov.uk**
 1. Check the issuer is **GeoTrust TLS RSA CA G1**
-1. Check that the fingerprint or thumbprint is **1F A7 92 7B 11 04 A4 C5 A6 41 AC 25 32 34 E4 BD BF B3 E0 ED**
+1. Check that the SHA1 fingerprint or thumbprint is **1B BD C4 DA 2E 0A 08 C5 24 95 08 32 7C C9 24 C7 A1 5A 22 02**
 1. Accept or trust the new certificate.
 
 Depending on their device, they may not be able to see all the information referred to here.
-
-For example, this is what it looks like on a Mac:
-
-![Screenshot of certificate verification on Mac OS](https://docs.wifi.service.gov.uk/assets/images/screenshot_macos.png)
 
 ### Possible problems
 
