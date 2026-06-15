@@ -6,11 +6,12 @@ set :markdown_engine, :kramdown
 set :markdown, input: 'GFM'
 set :relative_links, true
 
-# Point the contribution banner's "Report problem" link at the GovWifi admin
-# help page instead of the (broken) default GitHub "new issue" URL. The gem
-# reads config[:source_urls][:report_issue_url] and appends ?body=...&subject=...
+# Point the contribution banner's "Report problem" link at the GovWifi support
+# inbox (connected to Zendesk) instead of the (broken) default GitHub "new
+# issue" URL. The gem reads config[:source_urls][:report_issue_url] and appends
+# ?body=...&subject=..., which a mailto: uses to pre-fill the email.
 set :source_urls, {
-  report_issue_url: "https://admin.wifi.service.gov.uk/help"
+  report_issue_url: "mailto:govwifi-support@digital.cabinet-office.gov.uk"
 }
 
 configure :build do
