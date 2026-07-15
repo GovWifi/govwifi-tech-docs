@@ -10,12 +10,10 @@ gem 'wdm', '~> 0.1.1', platforms: [:mswin, :mingw]
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 
 # Include the tech docs gem
-# pinned to 4.2.0 due to higher versions pinning middleman to 4.5.1
-gem 'govuk_tech_docs', '4.2.0'
+gem 'govuk_tech_docs'
 
 # Middleman Gems
-gem 'middleman', '4.6.3'
-
+gem 'middleman'
 # required since ruby > 3.4
 gem 'base64'
 gem 'benchmark'
