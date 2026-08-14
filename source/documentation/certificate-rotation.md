@@ -2,7 +2,7 @@
 
 Every year, we rotate the GovWifi server certificate. Occasionally, we’ll also need to replace the intermediate or root certificates. This is an industry standard procedure that keeps the authentication process secure.
 
-We’ll give you at least one month’s notice about certificate rotations. The next one is scheduled for **Thursday 21st May 2026**.
+We’ll give you at least one month’s notice about certificate rotations. The next one is scheduled for **Thursday 22nd October 2026**.
 
 The GovWifi team carries out the certificate rotation on the RADIUS servers, but your organisation may need to do some work to make sure your users can connect to GovWifi after the rotation.
 
@@ -17,7 +17,7 @@ This section applies to you if your organisation does both of the following:
 
 If you need to update the profile with the new certificate details you must push the updated profile out to your managed devices. How you manage this will depend on how you deploy your GovWifi 802.1x profile to your managed devices.
 
-Download the new certificates for 2026:
+The current certs (updated in August 2026) are:
 
 * [server certificate](https://docs.wifi.service.gov.uk/assets/2026/wifi.service.gov.uk.crt)
 * [intermediate certificate](https://docs.wifi.service.gov.uk/assets/2026/DigiCertCA.crt)
