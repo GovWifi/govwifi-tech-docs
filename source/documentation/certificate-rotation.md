@@ -17,11 +17,11 @@ This section applies to you if your organisation does both of the following:
 
 If you need to update the profile with the new certificate details you must push the updated profile out to your managed devices. How you manage this will depend on how you deploy your GovWifi 802.1x profile to your managed devices.
 
-The current certs (updated in August 2026) are:
+The current certs (updated in October 2026) are:
 
-* [server certificate](https://docs.wifi.service.gov.uk/assets/2026/wifi.service.gov.uk.crt)
-* [intermediate certificate](https://docs.wifi.service.gov.uk/assets/2026/DigiCertCA.crt)
-* [root certificate](https://docs.wifi.service.gov.uk/assets/2026/TrustedRoot.crt)
+* [server certificate](https://docs.wifi.service.gov.uk/assets/2026oct/wifi.service.gov.uk.crt)
+* [intermediate certificate](https://docs.wifi.service.gov.uk/assets/2026oct/DigiCertCA.crt)
+* [root certificate](https://docs.wifi.service.gov.uk/assets/2026oct/TrustedRoot.crt)
 
 ## Help users accept the new certificate
 
@@ -40,7 +40,7 @@ They should:
 1. View the certificate.
 1. Check that the domain is **wifi.service.gov.uk**
 1. Check the issuer is **GeoTrust TLS RSA CA G1**
-1. Check that the SHA1 fingerprint or thumbprint is **1B BD C4 DA 2E 0A 08 C5 24 95 08 32 7C C9 24 C7 A1 5A 22 02**
+1. Check that the SHA1 fingerprint or thumbprint is **3C C2 BB 98 C0 E7 DC C1 06 2C 6B AC 22 41 A8 72 26 B1 02 1F**
 1. Accept or trust the new certificate.
 
 Depending on their device, they may not be able to see all the information referred to here.
