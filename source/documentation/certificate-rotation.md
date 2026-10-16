@@ -21,7 +21,7 @@ The current certs (updated in October 2026) are:
 
 * [server certificate](https://docs.wifi.service.gov.uk/assets/2026oct/wifi.service.gov.uk.crt)
 * [intermediate certificate](https://docs.wifi.service.gov.uk/assets/2026oct/DigiCertCA.crt)
-* [root certificate](https://docs.wifi.service.gov.uk/assets/2026oct/TrustedRoot.crt)
+* [root certificate](https://cacerts.digicert.com/DigiCertGlobalRootG2.crt.pem)
 
 ## Help users accept the new certificate
 
