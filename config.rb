@@ -1,5 +1,6 @@
 require 'govuk_tech_docs'
 require 'kramdown'
+require_relative 'lib/middleware/rack/downcase_headers'
 
 GovukTechDocs.configure(self)
 set :markdown_engine, :kramdown
@@ -15,11 +16,15 @@ set :source_urls, {
 }
 
 configure :build do
-    Middleman::Extensions::MinifyJavascript.config.setting(:compressor).value = proc {
-        require 'uglifier'
-        Uglifier.new(harmony: true)
-    }
-    activate :relative_assets
+  Middleman::Extensions::MinifyJavascript.config.setting(:compressor).value = proc {
+    require 'uglifier'
+    Uglifier.new(harmony: true)
+  }
+  activate :relative_assets
+end
+
+configure :development do
+  use ::Rack::DowncaseHeaders
 end
 
 redirect "set_up/index.html", to: "/set_up.html"
