@@ -4,7 +4,7 @@
 
 To preview or build the website, we need to use the terminal.
 
-Install Ruby with Rubygems, perferably with a [Ruby version manager][rvm],
+Install Ruby with Rubygems, preferably with a [Ruby version manager][rbenv],
 and the [Bundler gem][bundler].
 
 In the application folder type the following to install the required gems:
@@ -19,12 +19,12 @@ To make changes edit the source files in the `source` folder.
 
 ### Single page output
 
-Although a single page of HTML is generated the markdown is spread across
+Although a single page of HTML is generated the Markdown is spread across
 multiple files to make it easier to manage. They can be found in
 `source/documentation`.
 
-A new markdown file isn't automatically included in the generated output. If we
-add a new markdown file at the location `source/documentation/agile/scrum.md`,
+A new Markdown file isn't automatically included in the generated output. If we
+add a new Markdown file at the location `source/documentation/agile/scrum.md`,
 the following snippet in `source/index.html.md.erb`, includes it in the
 generated output.
 
@@ -43,7 +43,7 @@ For example, `source/about.html.md` will be accessible on <http://localhost:4567
 
 ## Preview
 
-Whilst writing documentation we can run a middleman server to preview how the
+Whilst writing documentation we can run a Middleman server to preview how the
 published version will look in the browser. After saving a change the preview in
 the browser will automatically refresh.
 
@@ -78,7 +78,7 @@ Install the required node modules:
 npm install
 ```
 
-Type the following to build the HTML:
+Run the following command to build the HTML:
 
 ```
 bundle exec middleman build
@@ -87,7 +87,7 @@ bundle exec middleman build
 This will create a `build` subfolder in the application folder which contains
 the HTML and asset files ready to be published.
 
-[rvm]: https://www.ruby-lang.org/en/documentation/installation/#managers
+[rbenv]: https://github.com/rbenv/rbenv
 [bundler]: http://bundler.io/
 
 ## How to contribute
@@ -101,6 +101,5 @@ the HTML and asset files ready to be published.
 The documentation is [© Crown copyright][copyright] and available under the terms
 of the [Open Government 3.0][ogl] license.
 
-[mit]: LICENSE
 [copyright]: http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/
 [ogl]: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
