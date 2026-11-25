@@ -13,7 +13,7 @@ If you've already set up GovWifi, you can follow these steps to try and resolve 
 GovWifi administrators:
 
 - [check your IP addresses and RADIUS secret keys](https://admin.wifi.service.gov.uk/ips) match your local configuration
-- [search the logs](https://admin.wifi.service.gov.uk/users/sign_in) to confirm traffic from your organisation is reaching the service
+- [search the logs](https://admin.wifi.service.gov.uk/logs/search/new) to confirm traffic from your organisation is reaching the service
 
 ## Troubleshooting to support individual users
 

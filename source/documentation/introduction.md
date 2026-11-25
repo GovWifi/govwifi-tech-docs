@@ -14,7 +14,7 @@ If you manage IT services in a public sector organisation and would like to make
 
 To offer GovWifi in your organisation, you configure your existing wifi infrastructure to access the GovWifi authentication service.
 
-GovWifi uses Remote Access Dial-In User Service (RADIUS) protocol to authenticate users’ usernames and passwords.
+GovWifi uses Remote Authentication Dial-In User Service (RADIUS) protocol to authenticate users’ usernames and passwords.
 
 Each end user sends a text or email to request their unique username and password. They use those credentials to connect to the wifi and access the internet.
 
