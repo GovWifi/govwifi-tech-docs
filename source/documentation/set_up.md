@@ -23,7 +23,7 @@ The MOU sets out the agreement between the Cabinet Office (CO) and your public s
 
 ## Create a new wifi installation
 
-Create a [network address translation (NAT) rule](https://wiki.untangle.com/index.php/NAT_Rules) if one does not already exist.
+Create a [network address translation (NAT) rule](https://en.wikipedia.org/wiki/Network_address_translation) if one does not already exist. Check your firewall or router supplier's documentation for how to do this.
 
 This allows your wifi controller or access points to connect to the internet using the IP addresses you'll add to your GovWifi admin account.
 

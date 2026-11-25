@@ -8,11 +8,11 @@ You can [view and update your configuration in GovWifi admin](https://admin.wifi
 
 Use GovWifi admin to:
 
-review and update your site details and contact information
+- review and update your site details and contact information
 
-manage your organisation’s IP addresses and RADIUS settings
+- manage your organisation’s IP addresses and RADIUS settings
 
-add, remove or update admin users for your organisation
+- add, remove or update admin users for your organisation
 
 ## Advertise GovWifi
 

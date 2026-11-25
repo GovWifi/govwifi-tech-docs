@@ -38,7 +38,7 @@ Make sure you’ll be able to provide enough bandwidth for the number of people 
 To make sure you can provide enough bandwidth:
 
 - make sure you’re not broadcasting your wifi network at maximum strength, so it’s only available in the areas you need to use it in
-- use your firewall to block things that takes up a lot of bandwidth, like streaming services or downloads over a certain size
+- use your firewall to block things that take up a lot of bandwidth, like streaming services or downloads over a certain size
 
 ## Configure your wireless access points 
 
@@ -58,4 +58,4 @@ Use automatic channel selection features in enterprise wifi management systems r
 
 After checking that your existing wifi setup can support GovWifi you can continue to:
 
-- [setup GovWifi for your organisation](./set_up)
+- [set up GovWifi for your organisation](./set_up)
